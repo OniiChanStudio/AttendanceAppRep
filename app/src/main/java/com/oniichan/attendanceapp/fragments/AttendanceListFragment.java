@@ -1,4 +1,4 @@
-package fragments;
+package com.oniichan.attendanceapp.fragments;
 
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import com.oniichan.attendanceapp.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AddEventFragment extends Fragment {
+public class AttendanceListFragment extends Fragment {
 
 
-    public AddEventFragment() {
+    public AttendanceListFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class AddEventFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_event, container, false);
+        return inflater.inflate(R.layout.fragment_attendance_list, container, false);
     }
 
 }

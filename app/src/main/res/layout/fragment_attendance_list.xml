@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fragments.AttendanceListFragment">
+    tools:context="com.oniichan.attendanceapp.fragments.AttendanceListFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

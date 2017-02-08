@@ -10,11 +10,5 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        callOnWake();
-        //Make a minor change.
-    }
-
-    private void callOnWake(){
-        //TODO call this function on wake
     }
 }

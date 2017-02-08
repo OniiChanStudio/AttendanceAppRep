@@ -1,4 +1,4 @@
-package fragments;
+package com.oniichan.attendanceapp.fragments;
 
 
 import android.os.Bundle;
